@@ -1,0 +1,112 @@
+body,div,header,nav,ul{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    width:100%;
+    background: #6B7091;
+    font-family: Arial;
+}
+.box{
+    margin:4% 4% 0 4%;
+    width:92%;
+    height:92%;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 30px #333;
+}
+
+header{
+    display: flex;
+    padding:30px 20px;
+    justify-content: space-between;
+    font-size:14px;
+}
+.left-logo{
+    width:12px;
+    height:12px;
+    border:3px solid #898A8E;
+    border-radius:12px;
+}
+ul {
+    display: flex;
+    width:300px;
+    list-style: none;
+    justify-content: space-around;
+}
+ul li a{
+    margin:10px;
+    text-decoration: none;
+    color:#9FA0A2;
+}
+
+main{
+    height:100%;
+    display: flex;
+    margin-top:-78px;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat center/50% url(../images/f3f071a918f78c25193981e009fcf1e5.png);
+}
+.login-block{
+    width:300px;
+    padding:20px;
+    background-color: #fff;
+}
+.input-block{
+    width:274px;
+    border:3px solid #F1F1F2;
+    border-radius:5px;
+    padding:10px;
+}
+.input-block input{
+    display: block;
+    width:100%;
+    height:35px;
+    border:0;
+    font-size:16px;
+    outline: none;
+    transition:.5s ease;
+}
+.input-block .user-id{
+    border-bottom: 1px solid #D5D5D5;
+}
+.input-block input::placeholder{
+    color:#CAC9C9;
+}
+.submit{
+    width: 100%;
+    height:38px;
+    margin-top:10px;
+    background-color: #8B97E1;
+    border:1px solid #C1C7EF;
+    border-radius: 3px;
+    color:#fff;
+    font-size:16px;
+    transition:.5s ease;
+}
+.links{
+    width:60%;
+    padding:2% 30%;
+}
+.links a{
+    display: inline-block;
+    margin-right:15px;
+    font-size:12px;
+    color:#C2C1C1;
+}
+
+.submit:hover{
+    cursor:pointer;
+    background-color:#6B7091;
+}
+a:hover{
+    cursor:pointer;
+    color:#aaa;
+}
+.input-block input:focus::placeholder{color:transparent;}
+.input-block input:focus{
+    border-bottom:2px solid #8B97E1;
+}
+
