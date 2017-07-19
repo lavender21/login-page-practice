@@ -1,11 +1,10 @@
-var path = require('path');
-var webpack = require('webpack');
+var path = require('path')
 
 module.exports = {
     entry: './src/js/login.js',
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname + '/dist'),
         publicPath: "/"
     },
     module: {
